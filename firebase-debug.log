@@ -1,0 +1,49 @@
+[debug] [2026-01-19T19:03:37.512Z] ----------------------------------------------------------------------
+[debug] [2026-01-19T19:03:37.514Z] Command:       /usr/local/bin/node /Users/purvamapari/.npm-global/bin/firebase init
+[debug] [2026-01-19T19:03:37.515Z] CLI Version:   15.3.1
+[debug] [2026-01-19T19:03:37.515Z] Platform:      darwin
+[debug] [2026-01-19T19:03:37.515Z] Node Version:  v22.13.1
+[debug] [2026-01-19T19:03:37.515Z] Time:          Tue Jan 20 2026 00:33:37 GMT+0530 (India Standard Time)
+[debug] [2026-01-19T19:03:37.515Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/purvamapari/Desktop/deploy
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-01-19T19:03:42.205Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-19T19:03:42.206Z] > authorizing via signed-in user (maparipurva15@gmail.com)
+[debug] [2026-01-19T19:03:42.207Z] Checked if tokens are valid: true, expires at: 1768852925167
+[debug] [2026-01-19T19:03:42.207Z] Checked if tokens are valid: true, expires at: 1768852925167
+[debug] [2026-01-19T19:03:42.208Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/digidoc-e6d67 [none]
+[debug] [2026-01-19T19:03:43.212Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/digidoc-e6d67 200
+[debug] [2026-01-19T19:03:43.212Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/digidoc-e6d67 {"projectId":"digidoc-e6d67","projectNumber":"715164103896","displayName":"DigiDoc","name":"projects/digidoc-e6d67","resources":{"hostingSite":"digidoc-e6d67"},"state":"ACTIVE","etag":"1_0cd24cdc-60d9-40b2-859f-6cc5751b5061"}
+[info] i  Using project digidoc-e6d67 (DigiDoc) . 
+[info] 
+=== Hosting Setup
+[debug] [2026-01-19T19:03:43.221Z] Checked if tokens are valid: true, expires at: 1768852925167
+[debug] [2026-01-19T19:03:43.221Z] Checked if tokens are valid: true, expires at: 1768852925167
+[debug] [2026-01-19T19:03:43.222Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/digidoc-e6d67 [none]
+[debug] [2026-01-19T19:03:43.655Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/digidoc-e6d67 200
+[debug] [2026-01-19T19:03:43.655Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/digidoc-e6d67 {"projectId":"digidoc-e6d67","projectNumber":"715164103896","displayName":"DigiDoc","name":"projects/digidoc-e6d67","resources":{"hostingSite":"digidoc-e6d67"},"state":"ACTIVE","etag":"1_0cd24cdc-60d9-40b2-859f-6cc5751b5061"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
